@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--Made by Robert Hollinger, last edited 10/22/2020-->
+	<head>
+		<title>Assignment 4: Tic Tac Toe and Temperature Convert</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="javascript/convert.js"></script>
+		<script src="javascript/tictactoe.js"></script>
+	</head>
+	
+	<body>
+	
+	<nav> 
+            <a href="../../index.html">Assignment 1</a>
+            <a href="../assignment2/index.html">Assignment 2</a>
+            <a href="../assignment3/index.html">Assignment 3</a>
+    </nav>
+
+	
+	<div class="temp_convert">
+		<h1>Temperature Converter</h1>
+		<p>
+			<label for="cInput">Celsius:</label>
+			<input id="cInput" type="text">
+		</p>
+		<p>
+			<label for="fInput">Fahrenheit:</label>
+			<input id="fInput" type="text">
+		</p>
+		<input id="convertButton" type="button" value="Convert">
+		<div id="errorMessage">
+		</div>
+		<p>
+			<img id="weatherImage" src="images/warm.png" alt="Warm">
+		</p>
+	</div>	
+		
+	<div class="tictactoe">	
+		<h1>Tic-Tac-Toe</h1>
+
+		<!-- 3x3 table for the game board -->
+		<table id="gameBoard">
+			<tr>
+				<td></td>
+				<td>c</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>e</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<p id="turnInfo">TURN INFO</p>
+		<input id="newGameButton" type="button" value="New game">
+	</div>
+	</body>
+</html>
